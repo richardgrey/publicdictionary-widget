@@ -1,0 +1,23 @@
+{
+  "name": "publicdictionary-widget",
+  "version": "0.0.1",
+  "description": "Widget injectable on any websites to translate Russina-Lezgi words by selecting it in text",
+  "main": "dist/index.js",
+  "repository": "https://github.com/richardgrey/publicdictionary-widget",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Nikolenko",
+  "license": "ISC",
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}
